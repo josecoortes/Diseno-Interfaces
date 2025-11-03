@@ -1,0 +1,56 @@
+/*
+
+.--> clase
+# --> id
+[] --> atributo
+*/
+
+
+[href] {
+    font-size: 125%;
+    padding: 8px;
+}
+
+/*Este serviria para encontrar los atributos q empiezen en lo q vaya despues del =*/
+[href *="alan"]{
+    background-color: green;
+}
+
+/*Este serviria para encontrar los atributos q terminen en lo q vaya despues del =*/
+[href $=".pdf"]{
+    background-color: green;
+}
+
+[title="Website"][href $=".pdf"]{
+    background-color: green;
+}
+
+input{
+    padding: 15px;
+}
+
+input:focus{
+    background-color: green;
+    color: white;
+}
+
+input:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+.container div:nth-child(odd){
+    color: darkorange;
+}
+p::first-letter{
+    font-size: 350%
+}
+p::selection{
+    background-color: aqua;
+}
+p{
+    background-color: green;
+}
+p{
+    background-color: grey;
+}
