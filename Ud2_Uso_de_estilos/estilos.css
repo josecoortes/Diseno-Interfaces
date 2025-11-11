@@ -1,0 +1,144 @@
+/* Reset y tipografía */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Contenedor principal */
+.login-container {
+    background-color:#556;
+background-size:80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    padding: 2.5rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Logo */
+.logo-login img {
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+/* Título */
+.login-container h2 {
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Campos */
+.campo {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.campo input,
+.campo select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+.campo input:focus,
+.campo select:focus {
+    border-color: #a18cd1;
+    outline: none;
+}
+
+/* Botón */
+.btn-login {
+    width: 100%;
+    padding: 0.75rem;
+    background: #922d75;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background: #ff00b7;
+}
+
+/* Redes sociales */
+.social-login {
+  margin-top: 1rem;
+}
+
+.social-login p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.social-login button {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.google {
+  background: #fff;
+}
+
+.registro-texto {
+  margin-top: 1rem;
+  color: #333;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.registro-texto a{
+   color: #ff00b7;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+

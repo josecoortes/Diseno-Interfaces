@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>UD2 Uso de estilos</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="logo-login">
+      <img src="img/ImagenLogo.jpg" alt="imagen logo">
+    </div>
+    <h2>Iniciar sesión</h2>
+    <form>
+      <div class="campo">
+        <label for="email">Email</label>
+        <input type="text" id="email" required>
+      </div>
+      <div class="campo">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="campo">
+        <label for="perfil">Perfil de usuario</label>
+        <select id="perfil" required>
+          <option value="">Seleccione perfil</option>
+          <option value="Mecanico">Mecánico</option>
+          <option value="Administrador">Administrador</option>
+        </select>
+      </div>
+      <button type="submit" class="btn-login">Entrar</button>
+      <div class="social-login">
+        <p>O continúa con</p>
+        <button class="google">Google</button>
+      </div>
+      <p class="registro-texto">Si no tienes cuenta puedes crearte una aqui:<br> <a href="#">Crear Cuenta</a></p>
+    </form>
+
+
+  </div>
+
+</body>
+
+</html>
